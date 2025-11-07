@@ -1,0 +1,19 @@
+{
+    "name": "md2png",
+    "version": "1.0.0",
+    "description": "",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "markdown-it": "^14.1.0",
+        "markdown-it-highlightjs": "^4.2.0",
+        "node-html-to-image": "^5.0.0"
+    }
+}

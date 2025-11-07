@@ -10,7 +10,6 @@
                 animation: flashAnimation 1.5s infinite;
                 font-size: 2em;
             }
-
             @keyframes flashAnimation {
                 0% {
                     color: black;
@@ -25,6 +24,9 @@
             textarea {
                 height: 80vh;
             }
+            #markdownInput {
+                font-family: "Courier New", Courier, monospace;
+            }
         </style>
     </head>
     <body>
@@ -35,15 +37,39 @@
 
                     <textarea id="markdownInput">
 ---
-Authors: Richard Carlier
+Author: Richard Carlier
 Url: https://linkedin.com/in/rcarlier/
 Date: 2025-11-07
-Title: NoSQL Graph
+Title: Markdown 2 PNG
 ---
 
-# YAML Front Matter
+# Objective
 
-Ceci est un **exemple** de Markdown.</textarea
+-   Convert a Markdown file to a ~~JPEP~~ **PNG image**.
+-   Using an **API**
+-   Handling **YAML Front Matter**
+-   Syntax **highlighting**
+
+## Tableau
+
+| Name     | Age | City                |
+| -------- | --: | ------------------- |
+| Richard  |  25 | La Garenne-Colombes |
+| Virginie |  30 | Londres             |
+| Jeremy   |  15 | Bruxelles           |
+
+## Code
+
+```py
+def hello(name):
+    print(f"Hello, {name}!")
+
+hello("World")
+```
+
+![](https://avatars.githubusercontent.com/u/343623?v=4)
+
+</textarea
                     >
                 </div>
                 <div class="col-1">
